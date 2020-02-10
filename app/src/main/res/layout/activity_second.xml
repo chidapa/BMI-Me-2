@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:layout_gravity="right"
+        android:textSize="15dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tvChck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOUR BMI"
+        android:layout_marginTop="56dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/tvWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24.69"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+
+        />
+    <TextView
+        android:id="@+id/tvHealthy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Healthy"
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/tvHW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(height:1.8 weight:8.0)"
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnCal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:hint="SHARE"
+        android:textColorHint="#ffff"/>
+
+</LinearLayout>
