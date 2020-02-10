@@ -26,6 +26,7 @@
         />
 
     <EditText
+        android:id="@+id/edtHeight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="24dp"
@@ -36,17 +37,18 @@
         android:gravity="center"/>
 
     <EditText
+        android:id="@+id/edtWeight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/edittext_wt"
-        android:hint="your height (cm)"
+        android:hint="your weight (kg)"
         android:gravity="center"/>
 
     <Button
-        android:id="@+id/btnCal"
+        android:id="@+id/btnCalculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/button1"
@@ -56,14 +58,20 @@
         android:hint="CALCULATE"
         android:textColorHint="#ffff"/>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <TextView
         android:id="@+id/tvName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Chidapa - 13590250"
-        android:layout_gravity="center"
-        android:layout_marginBottom="24dp"
-        />
 
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:layout_centerHorizontal="true"
+
+        />
+    </RelativeLayout>
 
 </LinearLayout>

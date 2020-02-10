@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:layout_gravity="right"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOUR BMI"
+        android:gravity="center"
+        android:layout_marginTop="56dp"
+        android:textSize="24dp"/>
+    <TextView
+        android:id="@+id/tvBmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="24.69"
+        android:gravity="center"
+        android:textSize="24dp"
+        />
+
+    <TextView
+        android:id="@+id/tvDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Healthy"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/tvHw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(height 1.8 weight:80.0"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="24dp"
+        android:text="SHARE"
+        android:textColor="#FFF"
+        android:background="@drawable/button1"/>
+
+</LinearLayout>
